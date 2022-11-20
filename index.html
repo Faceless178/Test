@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="square" data-square="square-1">
+                <span class="square__number">
+                    1
+                </span>
+            </div>
+            <div class="square" data-square="square-2">
+                <span class="square__number">
+                    2
+                </span>
+            </div>
+            <div class="square" data-square="square-3">
+                <span class="square__number">
+                    3
+                </span>
+            </div>
+            <div class="square" data-square="square-4">
+                <span class="square__number">
+                    4
+                </span>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal__bg hidden" id="square-1" data-btn>
+                <div class="modal__square" >
+                    <div class="modal__btn">
+                        <img class="btn" data-btn-close="btn-1" src="./img/close.png" alt="">
+                    </div>
+                    <span class="modal__text">
+                        Выбран 1-ый квадрат!
+                    </span>
+                </div>
+            </div>
+            <div class="modal__bg hidden" id="square-2" data-btn>
+                <div class="modal__square" >
+                    <div class="modal__btn">
+                        <img class="btn" data-btn-close="btn-2" src="./img/close.png" alt="">
+                    </div>
+                    <span class="modal__text">
+                        Выбран 2-ый квадрат!
+                    </span>
+                </div>
+            </div>
+            <div class="modal__bg hidden" id="square-3" data-btn>
+                <div class="modal__square" >
+                    <div class="modal__btn">
+                        <img class="btn" data-btn-close="btn-3" src="./img/close.png" alt="">
+                    </div>
+                    <span class="modal__text">
+                        Выбран 3-ый квадрат!
+                    </span>
+                </div>
+            </div>
+            <div class="modal__bg hidden" id="square-4" data-btn>
+                <div class="modal__square" >
+                    <div class="modal__btn">
+                        <img class="btn" data-btn-close="btn-4" src="./img/close.png" alt="">
+                    </div>
+                    <span class="modal__text">
+                        Выбран 4-ый квадрат!
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="checkbox">
+            <label>
+                <input name="checkbox" type="checkbox" id="check">
+            </label>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
